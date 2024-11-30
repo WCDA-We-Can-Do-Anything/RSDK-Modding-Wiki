@@ -1,26 +1,26 @@
 # SetWindowVSync
 
 ## Description
-Todo.
+Allows `ApplyWindowChanges` to turn on or off VSync.
 
 ## Parameters
-`todo`
+`vSync`
 
-:   Todo.
+:   The value that you want to change VSync to.
 
-`todo`
+`unused`
 
-:   Todo.
+:   Unused parameter.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(SetWindowVSync, bool vSync, int unused)
 ```
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(SetWindowVSync, true, 0)
 ```

@@ -1,26 +1,15 @@
 # RefreshEngine
 
 ## Description
-Todo.
+Replace the engine. Must be called for any mod active related changes to take effect.
 
 ## Parameters
-`todo`
-
-:   Todo.
-
-`todo`
-
-:   Todo.
+None.
 
 ## Return Value
 None.
 
-## Syntax
-```
-CallNativeFunction2(NativeFunction, int todo, int todo)
-```
-
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(RefreshEngine)
 ```

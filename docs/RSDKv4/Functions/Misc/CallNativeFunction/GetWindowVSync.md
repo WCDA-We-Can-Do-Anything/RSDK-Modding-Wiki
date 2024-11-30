@@ -1,26 +1,15 @@
 # GetWindowVSync
 
 ## Description
-Todo.
+Checks if VSync is enabled.
 
 ## Parameters
-`todo`
-
-:   Todo.
-
-`todo`
-
-:   Todo.
-
-## Return Value
 None.
 
-## Syntax
-```
-CallNativeFunction2(NativeFunction, int todo, int todo)
-```
+## Return Value
+Sets `checkResult` to 1 if VSync is enabled and 0 if VSync is disabled.
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(GetWindowVSync)
 ```

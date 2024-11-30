@@ -1,26 +1,27 @@
 # SetWindowScaleMode
 
 ## Description
-Todo.
+Allows `ApplyWindowChanges` to set the scale mode of the game.
 
 ## Parameters
-`todo`
+`mode`
 
-:   Todo.
+:   The scale mode that you want to set the window to.
+**NOTE**: Any value greater than 1 is invalid.
 
-`todo`
+`unused`
 
-:   Todo.
+:   Unused parameter.
 
 ## Return Value
 None.
 
 ## Syntax
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(SetWindowScaleMode, int mode, int unused)
 ```
 
 ## Example
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(SetWindowScaleMode, 1, 0)
 ```
