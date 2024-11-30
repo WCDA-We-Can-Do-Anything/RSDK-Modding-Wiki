@@ -16,7 +16,7 @@ Gets the amount of loaded achievements.
 
 ## Return Value
 
-Sets `checkresult` to the number of loaded achievements.
+TODO.
 
 ## Syntax
 
