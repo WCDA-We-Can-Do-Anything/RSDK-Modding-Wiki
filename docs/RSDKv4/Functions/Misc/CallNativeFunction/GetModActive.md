@@ -1,26 +1,31 @@
 # GetModActive
 
 ## Description
+
 Todo.
 
 ## Parameters
-`todo`
+
+`id`
 
 :   Todo.
 
-`todo`
+`unused`
 
-:   Todo.
+: Unused parameter.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(GetModActive, int todo, int todo)
 ```
 
 ## Example
+
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(GetModActive, 0, 0)
 ```

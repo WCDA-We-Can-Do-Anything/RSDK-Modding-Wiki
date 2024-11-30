@@ -1,26 +1,19 @@
 # GetWindowFullScreen
 
 ## Description
-Todo.
+
+Checks if the game is on fullscreen.
 
 ## Parameters
-`todo`
 
-:   Todo.
-
-`todo`
-
-:   Todo.
-
-## Return Value
 None.
 
-## Syntax
-```
-CallNativeFunction2(NativeFunction, int todo, int todo)
-```
+## Return Value
+
+Sets `checkResult` to 1 if the game window is fullscreen.
 
 ## Example
+
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(GetWindowFullScreen)
 ```

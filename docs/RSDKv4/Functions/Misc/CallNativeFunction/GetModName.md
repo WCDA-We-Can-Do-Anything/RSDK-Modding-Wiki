@@ -1,26 +1,39 @@
 # GetModName
 
 ## Description
+
 Todo.
 
 ## Parameters
-`todo`
+
+`textMenu`
 
 :   Todo.
 
-`todo`
+`highlight`
 
 :   Todo.
+
+`id`
+
+: Todo.
+
+`unused`
+
+: Unused parameter.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(GetModName, int textMenu, bool highlight, int id, int unused)
 ```
 
 ## Example
+
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(GetModName, 0, 0)
 ```

@@ -10,7 +10,7 @@ None.
 
 ## Return Value
 
-Sets `checkresult` to the number of loaded achievements.
+Sets `checkResult` to the number of loaded achievements.
 
 ## Example
 

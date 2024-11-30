@@ -1,26 +1,19 @@
 # GetWindowBorderless
 
 ## Description
-Todo.
+
+Checks if the game window is borderless.
 
 ## Parameters
-`todo`
 
-:   Todo.
-
-`todo`
-
-:   Todo.
-
-## Return Value
 None.
 
-## Syntax
-```
-CallNativeFunction2(NativeFunction, int todo, int todo)
-```
+## Return Value
+
+Sets `checkResult` to 1 if the game window is borderless and 0 if the game window isnt.
 
 ## Example
+
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(GetWindowBorderless)
 ```

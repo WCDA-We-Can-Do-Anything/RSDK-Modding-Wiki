@@ -1,26 +1,33 @@
 # ShowPromoPopup
 
 ## Description
-Todo.
+
+Attempts to display a promotional popup. 
+
+**NOTE**: This function does nothing on the decompilation.
 
 ## Parameters
-`todo`
 
-:   Todo.
+`id`
 
-`todo`
+:   The id of the popup.
 
-:   Todo.
+`promoName`
+
+:   Name of the promotional popup.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(ShowPromoPopup, int id, string promoName)
 ```
 
 ## Example
+
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(ShowPromoPopup, 0, "GameOverPromo")
 ```

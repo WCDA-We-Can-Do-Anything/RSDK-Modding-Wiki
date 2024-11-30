@@ -1,26 +1,19 @@
 # GetScreenWidth
 
 ## Description
-Todo.
+
+Gets the current internal screen width of the game.
 
 ## Parameters
-`todo`
 
-:   Todo.
-
-`todo`
-
-:   Todo.
-
-## Return Value
 None.
 
-## Syntax
-```
-CallNativeFunction2(NativeFunction, int todo, int todo)
-```
+## Return Value
+
+Sets `checkResult` to the internet screen width of the game.
 
 ## Example
+
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(GetScreenWidth)
 ```
