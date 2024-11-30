@@ -1,26 +1,19 @@
 # ClearAchievements
 
 ## Description
-Todo.
+
+Clears all loaded achievements
 
 ## Parameters
-`todo`
 
-:   Todo.
-
-`todo`
-
-:   Todo.
-
-## Return Value
 None.
 
-## Syntax
-```
-CallNativeFunction2(NativeFunction, int todo, int todo)
-```
+## Return Value
+
+None.
 
 ## Example
+
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(ClearAchievements)
 ```
