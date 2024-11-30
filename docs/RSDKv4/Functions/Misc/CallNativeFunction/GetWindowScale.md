@@ -1,26 +1,19 @@
 # GetWindowScale
 
 ## Description
-Todo.
+
+Gets the window scale multiplier of the game.
 
 ## Parameters
-`todo`
 
-:   Todo.
-
-`todo`
-
-:   Todo.
-
-## Return Value
 None.
 
-## Syntax
-```
-CallNativeFunction2(NativeFunction, int todo, int todo)
-```
+## Return Value
+
+Sets `checkResult` to the scale multiplier of the game.
 
 ## Example
+
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(GetWindowScale)
 ```

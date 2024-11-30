@@ -1,26 +1,31 @@
 # Disconnect2PVS
 
 ## Description
-Todo.
+
+Ends the currently active 2P VS session.
 
 ## Parameters
-`todo`
 
-:   Todo.
+`entityID`
 
-`todo`
+: sends the entity in the `entityID` slot to the other player in the 2PVS session.
 
-:   Todo.
+`unused`
+
+: unused paramater
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(Disconnect2PVS, int entityID, int unused)
 ```
 
 ## Example
+
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(Disconnect2PVS)
 ```

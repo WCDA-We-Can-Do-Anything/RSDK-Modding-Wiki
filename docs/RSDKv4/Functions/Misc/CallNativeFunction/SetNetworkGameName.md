@@ -1,26 +1,31 @@
 # SetNetworkGameName
 
 ## Description
-Todo.
+
+Sets the game name of the network to name.
 
 ## Parameters
-`todo`
 
-:   Todo.
+`unused`
 
-`todo`
+:   Unused parameter.
+
+`name`
 
 :   Todo.
 
 ## Return Value
+
 None.
 
 ## Syntax
+
 ```
-CallNativeFunction2(NativeFunction, int todo, int todo)
+CallNativeFunction2(SetNetworkGameName, int unused, string name)
 ```
 
 ## Example
+
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(SetNetworkGameName, 0, "NAME")
 ```

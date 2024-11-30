@@ -1,26 +1,19 @@
 # GetModCount
 
 ## Description
-Todo.
+
+Gets the amount of loaded mods.
 
 ## Parameters
-`todo`
 
-:   Todo.
-
-`todo`
-
-:   Todo.
-
-## Return Value
 None.
 
-## Syntax
-```
-CallNativeFunction2(NativeFunction, int todo, int todo)
-```
+## Return Value
+
+Stores the amount of loaded mods in `checkResult`
 
 ## Example
+
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(GetModCount)
 ```

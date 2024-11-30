@@ -1,26 +1,19 @@
 # GetAchievementCount
 
 ## Description
-Todo.
+
+Gets the amount of loaded achievements.
 
 ## Parameters
-`todo`
 
-:   Todo.
-
-`todo`
-
-:   Todo.
-
-## Return Value
 None.
 
-## Syntax
-```
-CallNativeFunction2(NativeFunction, int todo, int todo)
-```
+## Return Value
+
+Sets `checkResult` to the number of loaded achievements.
 
 ## Example
+
 ```
-CallNativeFunction2(NativeFunction, 0, 0)
+CallNativeFunction2(GetAchievementCount)
 ```
