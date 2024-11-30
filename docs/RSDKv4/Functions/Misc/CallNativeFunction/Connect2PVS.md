@@ -6,6 +6,7 @@ Initializes a 2P VS session.
 ## Parameters
 `gameLength`
 Sets the number of rounds in the 2PVS session.
+
 `itemMode`
 Sets the types of items you can use in the 2PVS session.
 
